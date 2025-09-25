@@ -1,24 +1,36 @@
-# Logs
-logs
-*.log
+# dependencies
+node_modules
+dist
+dist-ssr
+
+# typescript build info
+*.tsbuildinfo
+
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# environment variables
+.env
+.env.local
+.env.*.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+# editor directories and files
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# macOS system files
+.DS_Store
+
+# windows system files
+Thumbs.db
+
+# coverage reports
+coverage
